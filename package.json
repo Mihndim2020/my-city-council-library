@@ -8,7 +8,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "devstart": "nodemon ./bin/www",
-    "serverstart": "DEBUG=express-locallibrary-tutorial:* npm run devstart"
+    "serverstart": "DEBUG=city_council_library:* npm run devstart"
   },
   "keywords": [],
   "author": "Mihndim Julius",
@@ -17,6 +17,7 @@
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.6",
     "debug": "~4.3.4",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-async-handler": "^1.2.0",
     "express-rate-limit": "^7.1.3",
@@ -24,6 +25,7 @@
     "helmet": "^7.0.0",
     "http-errors": "~2.0.0",
     "luxon": "^3.4.3",
+    "mongodb": "4.1",
     "mongoose": "^7.6.3",
     "morgan": "^1.10.0",
     "pug": "2.0.0-beta11"
